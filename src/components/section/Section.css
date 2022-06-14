@@ -1,0 +1,15 @@
+.Section {
+  min-width: 500px;
+  padding: 5px 5% 5px 15%;
+  margin-top: 5px;
+  background-color: red;
+}
+
+.Section h1 {
+  user-select: none;
+  letter-spacing: 0.04em;
+}
+
+.Section h1::first-letter {
+  text-transform: uppercase;
+}
