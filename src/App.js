@@ -10,7 +10,7 @@ function App () {
   return (
     <div className='App'>
       <SideMenu />
-      <Section title='sobre mi'>
+      <Section title='soy un Desarrollador TRAINEE'>
         <AboutMe />
       </Section>
       <Section title='proyectos'>

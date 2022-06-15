@@ -1,0 +1,50 @@
+.AboutMe {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.AboutMe .description {
+  flex-basis: 60%;
+}
+
+.AboutMe .description h2 {
+  padding-top: 2%;
+}
+
+.AboutMe .description p {
+  padding-top: 2%;
+  padding-left: 2%;
+}
+
+.AboutMe .links {
+  user-select: none;
+}
+
+.AboutMe .circule {
+  border-radius: 50%;
+  width: 300px;
+  height: 300px;
+  overflow: hidden;
+}
+
+.AboutMe .circule img {
+  width: 100%;
+  height: 100%;
+}
+
+.AboutMe .socialMedia {
+  display: flex;
+  justify-content: center;
+}
+
+.AboutMe .socialMedia img {
+  width: fit-content;
+  height: fit-content;
+  margin: 4%;
+  padding: 1%;
+}
+
+.AboutMe .socialMedia img:hover {
+  cursor: pointer;
+}
