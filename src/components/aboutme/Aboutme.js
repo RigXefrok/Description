@@ -1,7 +1,7 @@
-// import './Aboutme.css'
+// import './AboutMe.css'
 
-function Aboutme () {
-  return <div className='About-me'>sobre mi</div>
+function AboutMe () {
+  return <div className='AboutMe'>sobre mi</div>
 }
 
-export default Aboutme
+export default AboutMe

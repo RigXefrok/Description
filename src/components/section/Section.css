@@ -1,15 +1,32 @@
 .Section {
   min-width: 500px;
-  padding: 5px 5% 5px 15%;
-  margin-top: 5px;
-  background-color: red;
+  width: 70%;
+  max-width: 75%;
+
+  padding: 1% 5% 2% 3%;
+  margin: 20px 2% 20px 5%;
+
+  font-family: monospace;
+  line-height: 1.9em;
+  font-size: 1.5em;
+
+  box-shadow: 2px 3px 27px 6px #e5e5e5;
+  -webkit-box-shadow: 2px 3px 27px 6px #e5e5e5;
+  -moz-box-shadow: 2px 3px 27px 6px #e5e5e5;
 }
 
 .Section h1 {
   user-select: none;
+  padding: 0.5em 0;
   letter-spacing: 0.04em;
+  color: #2F7326;
+
 }
 
 .Section h1::first-letter {
   text-transform: uppercase;
+}
+
+.Section>div {
+  padding-left: 10px;
 }

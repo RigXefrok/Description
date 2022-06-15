@@ -2,9 +2,9 @@ import './Section.css'
 
 const Section = ({ children, title }) => {
   return (
-    <div className='Section'>
+    <div className='Section' id={title}>
       <h1>{title}</h1>
-      {children}
+      <div>{children}</div>
     </div>
   )
 }
