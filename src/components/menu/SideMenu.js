@@ -32,7 +32,7 @@ function SideMenu () {
             <a href='#proyectos'>Proyectos</a>
           </li>
           <li>
-            <a href='#conocimientos'>conocimientos</a>
+            <a href='#conocimientos'>Conocimientos</a>
           </li>
           <li>
             <a href='#contacto'>Contacto</a>

@@ -1,0 +1,56 @@
+[
+  {
+    "name": "Desarrollador avanzado en JavaScript, Jquery, Json",
+    "type": "curso",
+    "institution": "Centro de e-Learning UTN FRBA",
+    "credentialID": "CER-D2KI517T-379180",
+    "startDate": "AGOSTO 2019",
+    "expirationDate": "No expira",
+    "duration": "3 meses"
+  },
+  {
+    "name": "Desarrollo con Angular",
+    "type": "curso",
+    "institution": "Centro de e-Learning UTN FRBA",
+    "credentialID": "CER-G9CTSC0T-417427",
+    "startDate": "NOVIEMBRE 2019",
+    "expirationDate": "No expira",
+    "duration": "3 meses"
+  },
+  {
+    "name": "Introducción al Unit Testing",
+    "type": "curso",
+    "institution": "AYNI",
+    "credentialID": "",
+    "startDate": "NOVIEMBRE 2019",
+    "expirationDate": "No expira",
+    "duration": "1 mes"
+  },
+  {
+    "name": "Red Hat Application Development I: Programming JavaEE (JB183)",
+    "type": "curso",
+    "institution": "Red Hat, INET",
+    "credentialID": "",
+    "startDate": "AGOSTO 2019 ",
+    "expirationDate": "No expira",
+    "duration": "5 meses"
+  },
+  {
+    "name": "N5 Certificate Japanese-Language Proficiency",
+    "type": "Certificado internacional de idioma",
+    "institution": "The japan foundation",
+    "credentialID": "",
+    "startDate": "ENERO 2018",
+    "expirationDate": "No expira",
+    "duration": ""
+  },
+  {
+    "name": "Python",
+    "type": "curso",
+    "institution": "UTN",
+    "credentialID": "",
+    "startDate": "ENERO 2019",
+    "expirationDate": "No expira",
+    "duration": ""
+  }
+]

@@ -1,0 +1,10 @@
+.Languages {}
+
+.Languages>h2 {
+  padding: 1% 0 3%;
+}
+
+.Languages>div {
+  display: flex;
+  flex-wrap: wrap;
+}

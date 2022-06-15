@@ -1,0 +1,25 @@
+.Certificate {
+  padding: 2% 0 2% 2%;
+}
+
+.Certificate>h5 {
+  line-height: 0.9em;
+}
+
+.Certificate>p:nth-child(2) strong {
+  color: #2F7326;
+}
+
+.Certificate>p:nth-child(2) strong::first-letter {
+  text-transform: uppercase;
+}
+
+.Certificate>p:nth-child(3) {
+  line-height: 1em;
+  font-size: 0.8em;
+}
+
+.Certificate>p:nth-child(4) {
+  line-height: 1em;
+  font-size: 0.8em;
+}

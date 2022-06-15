@@ -1,15 +1,11 @@
 import './AboutMe.css'
-import yo from '../../assets/images/yo.jpg'
-import linkedIn from '../../assets/images/LinkedIn.svg'
-import gitHub from '../../assets/images/github.svg'
-import gitLab from '../../assets/images/gitlab.svg'
-import codeWars from '../../assets/images/codewars.svg'
+import images from '../../assets/images/images'
 
 function AboutMe () {
   return (
     <div className='AboutMe'>
       <div className='description'>
-        <h2>sobre mí</h2>
+        <h2>soy un desarrollador JUNIOR</h2>
         <p>
           Me llamo Sebastián de la Fuente, soy Argentino y me encanta la
           programación.
@@ -23,13 +19,13 @@ function AboutMe () {
       </div>
       <div className='links'>
         <div className='circule'>
-          <img src={yo} alt='Xefrok' />
+          <img src={images.yo.img} alt={images.yo.description} />
         </div>
         <div className='socialMedia'>
-          <img src={linkedIn} alt='linkedIn' />
-          <img src={codeWars} alt='codeWars' />
-          <img src={gitHub} alt='github' />
-          <img src={gitLab} alt='gitlab' />
+          <img src={images.linkedIn.img} alt={images.linkedIn.description} />
+          <img src={images.codewars.img} alt={images.codewars.description} />
+          <img src={images.github.img} alt={images.github.description} />
+          <img src={images.gitlab.img} alt={images.gitlab.description} />
         </div>
       </div>
     </div>
