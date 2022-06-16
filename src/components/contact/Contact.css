@@ -1,0 +1,64 @@
+.Contact {}
+
+.Contact>form {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  font-size: 1.3rem;
+}
+
+.Contact>form div:nth-child(1) {
+  flex-basis: 50%;
+}
+
+.Contact input[name='nombre'] {
+  width: 90%;
+}
+
+.Contact>form div:nth-child(2) {
+  flex-basis: 50%;
+}
+
+.Contact input[name='email'] {
+  width: 90%;
+}
+
+.Contact>form div:nth-child(3) {
+  flex-basis: 100%;
+}
+
+.Contact textarea {
+  resize: none;
+  width: 95%;
+  max-width: 95%;
+}
+
+.Contact input[name='nombre'],
+.Contact input[name='email'],
+.Contact textarea {
+  border-radius: 5px;
+  border: 1px ridge #151e21cc;
+  background-color: #f1f2eb;
+  padding: 0.5rem;
+  font-size: 1.2rem;
+}
+
+.Contact input[name='nombre']:focus,
+.Contact input[name='email']:focus,
+.Contact textarea:focus {
+  outline-color: #38653C;
+}
+
+.Contact button {
+  border: none;
+  padding: 1% 3%;
+  letter-spacing: 0.1em;
+  color: #D1D1D1;
+  font-size: 1.5rem;
+  background-color: #38653C;
+}
+
+.Contact button:hover {
+  cursor: pointer;
+  background-color: #497839;
+}

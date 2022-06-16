@@ -7,7 +7,7 @@ function Certificates () {
     <div className='Certificates'>
       <h2> certificados </h2>
       {certificatesData.map(certificate => (
-        <Certificate {...certificate} />
+        <Certificate key={certificate.name} {...certificate} />
       ))}
     </div>
   )
