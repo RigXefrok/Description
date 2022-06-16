@@ -38,12 +38,30 @@
   justify-content: center;
 }
 
-.AboutMe .socialMedia img {
-  width: fit-content;
-  height: fit-content;
-  margin: 4%;
+
+.AboutMe .socialMedia div {
+  position: relative;
+  margin: 2%;
   padding: 1%;
 }
+
+.AboutMe .socialMedia div:hover {
+  cursor: pointer;
+}
+
+.AboutMe .socialMedia div:hover p {
+  display: block;
+}
+
+.AboutMe .socialMedia div p {
+  display: none;
+  position: absolute;
+  bottom: -20px;
+  font-size: 1rem;
+  left: -58%;
+  width: max-content;
+}
+
 
 .AboutMe .socialMedia img:hover {
   cursor: pointer;

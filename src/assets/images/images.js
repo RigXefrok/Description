@@ -11,19 +11,23 @@ const images = {
   },
   linkedIn: {
     img: linkedIn,
-    description: 'linkedIn'
+    description: 'linkedIn',
+    url: 'https://www.linkedin.com/in/Xefrok/'
   },
   github: {
     img: gitHub,
-    description: 'github'
+    description: 'github',
+    url: 'https://github.com/RigXefrok'
   },
   gitlab: {
     img: gitLab,
-    description: 'gitlab'
+    description: 'gitlab',
+    url: 'https://gitlab.com/sebastindlf'
   },
   codewars: {
     img: codeWars,
-    description: 'codewars'
+    description: 'codewars',
+    url: 'https://www.codewars.com/users/RigXefrok'
   }
 }
 
