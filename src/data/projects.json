@@ -1,20 +1,26 @@
 [
   {
     "name": "biblioteca virtual",
-    "description": "Sistema de gestión y búsqueda de libros, usuarios y pedidos para la biblioteca de mi colegio",
+    "type": "escuela",
+    "description": "Sistema de gestión y búsqueda de libros, usuarios y pedidos para una biblioteca.",
     "technologies": [
-      "Javascript",
+      "JavaScript",
       "HTML",
       "CSS",
       "PHP",
       "AJAX",
       "Jquery",
       "Mysql"
-    ]
+    ],
+    "gitUrl": "",
+    "pageUrl": ""
   },
   {
     "name": "wordle",
-    "description": "Juego wordle realizado con POO",
-    "technologies": ["java", "json"]
+    "type": "facultad",
+    "description": "Juego wordle realizado con POO.",
+    "technologies": ["Java", "json"],
+    "gitUrl": "",
+    "pageUrl": ""
   }
 ]

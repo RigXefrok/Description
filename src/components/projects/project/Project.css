@@ -1,7 +1,62 @@
+.Project {
+  position: relative;
+
+  background-color: #151E21;
+  flex-basis: 44%;
+
+  padding: 3% 2% 6%;
+  margin: 5px;
+  color: #d1d1d1;
+  border-radius: 3px;
+}
+
 .Project>h3 {
+  position: relative;
+  user-select: none;
   line-height: 0.9em;
+  border-bottom: 2px solid #38653C;
 }
 
 .Project>h3::first-letter {
   text-transform: uppercase;
+}
+
+.Project>h3 span {
+  font-size: 1.2rem;
+  float: right;
+}
+
+.Project .technologies {
+  font-size: 1rem;
+  display: flex;
+}
+
+.Project .technologies p {
+  padding-right: 10px;
+}
+
+.Project button {
+  position: absolute;
+  border: none;
+  padding: 1% 2%;
+  margin: 1%;
+  letter-spacing: 0.1em;
+  color: #D1D1D1;
+  font-size: 1rem;
+  background-color: #38653C;
+}
+
+.Project button:hover {
+  cursor: pointer;
+  background-color: #497839;
+}
+
+.Project button:nth-of-type(1) {
+  bottom: 2%;
+  right: 15%;
+}
+
+.Project button:nth-of-type(2) {
+  bottom: 2%;
+  right: 2%;
 }

@@ -1,15 +1,19 @@
 import './Project.css'
 
-function Project ({ name, description, technologies }) {
+function Project ({ name, type, description, technologies }) {
   return (
     <div className='Project'>
-      <h3>{name}</h3>
+      <h3>
+        {name} <span>#{type}</span>
+      </h3>
       <p>{description}</p>
-      <p>
+      <div className='technologies'>
         {technologies.map(technology => (
-          <spam>{technology} </spam>
+          <p key={technology}>{technology}</p>
         ))}
-      </p>
+      </div>
+      <button>ver</button>
+      <button>code</button>
     </div>
   )
 }

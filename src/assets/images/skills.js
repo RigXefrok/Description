@@ -67,13 +67,13 @@ const skills = [
     name: 'NodeJs',
     img: nodeSVG,
     level: 'bajo',
-    description: 'No desarrolle mucho en esta tecnologia.'
+    description: 'No desarrolle mucho en esta tecnología.'
   },
   {
     name: 'ReactJs',
     img: reactSVG,
     level: 'medio',
-    description: 'Me siento comodo utilizando este framework.'
+    description: 'Me siento cómodo utilizando este framework.'
   },
   {
     name: 'C++',
@@ -87,7 +87,7 @@ const skills = [
     img: CSharpSVG,
     level: 'bajo',
     description:
-      'No cuenta con mucha experiencia, lo utilice para algunos projectos en Unity.'
+      'No cuenta con mucha experiencia, lo utilice para algunos proyectos en Unity.'
   },
   {
     name: 'Git',
@@ -102,7 +102,7 @@ const skills = [
     description: 'No es mis de lenguajes favoritos pero se usarlo.'
   },
   {
-    name: 'MySql',
+    name: 'Mysql',
     img: mysqlSVG,
     level: 'medio',
     description: 'No me especializo pero se usarlo.'
