@@ -8,12 +8,7 @@ function Languages () {
       <h2>Lenguajes</h2>
       <div>
         {skills.map(skill => (
-          <Skill
-            key={skill.name}
-            name={skill.name}
-            img={skill.img}
-            description={skill.description}
-          />
+          <Skill key={skill.name} {...skill} />
         ))}
       </div>
     </div>

@@ -1,0 +1,7 @@
+.Project>h3 {
+  line-height: 0.9em;
+}
+
+.Project>h3::first-letter {
+  text-transform: uppercase;
+}

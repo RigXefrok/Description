@@ -17,7 +17,7 @@ function Contact () {
         </p>
       </div>
 
-      <h2>Escríbime</h2>
+      <h2>Contáctame</h2>
       <form onSubmit={sendMail}>
         <div>
           <label htmlFor='nombre'>Nombre</label>

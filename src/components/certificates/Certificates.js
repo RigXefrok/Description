@@ -1,6 +1,6 @@
 import './Certificates.css'
 import Certificate from './certificate/Certificate.js'
-import certificatesData from '../../assets/certificates.json'
+import certificatesData from '../../data/certificates.json'
 
 function Certificates () {
   return (

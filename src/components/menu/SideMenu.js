@@ -26,6 +26,9 @@ function SideMenu () {
         <span>menu</span>
         <ul>
           <li>
+            <a href='#Home'>Inicio</a>
+          </li>
+          <li>
             <a href='#sobre mi'>Sobre mi</a>
           </li>
           <li>
