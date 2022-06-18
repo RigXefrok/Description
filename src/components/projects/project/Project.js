@@ -12,8 +12,10 @@ function Project ({ name, type, description, technologies }) {
           <p key={technology}>{technology}</p>
         ))}
       </div>
-      <button>ver</button>
-      <button>code</button>
+      <div className='buttons'>
+        <button>ver</button>
+        <button>code</button>
+      </div>
     </div>
   )
 }

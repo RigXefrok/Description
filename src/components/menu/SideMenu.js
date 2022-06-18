@@ -1,57 +1,49 @@
 import './SideMenu.css'
-import { useRef } from 'react'
+import { useState } from 'react'
 
 function SideMenu () {
-  let sideMenu = useRef(null)
-  let toggleBar = useRef(null)
-  let menuContent = useRef(null)
+  let [active, setActive] = useState(true)
 
-  const toggleMenu = () => {
-    const offsetLeft = menuContent.current.clientWidth
-    if (
-      sideMenu.current.style.left == '0px' ||
-      sideMenu.current.style.left == 0
-    ) {
-      sideMenu.current.style.left = `-${offsetLeft}px`
-      toggleBar.current.style.transform = 'rotateY(180deg)'
-    } else {
-      sideMenu.current.style.left = '0'
-      toggleBar.current.style.transform = 'rotateY(0deg)'
-    }
+  const toggleMenu = () => setActive(!active)
+
+  const goTo = id => {
+    document.querySelector(id).scrollIntoView({ behavior: 'smooth' })
   }
 
   return (
-    <nav className='SideMenu' ref={sideMenu}>
-      <div className='menu' ref={menuContent}>
-        <span>menu</span>
-        <ul>
-          <li>
-            <a href='#Home'>Inicio</a>
-          </li>
-          <li>
-            <a href='#sobre mi'>Sobre mi</a>
-          </li>
-          <li>
-            <a href='#proyectos'>Proyectos</a>
-          </li>
-          <li>
-            <a href='#conocimientos'>Conocimientos</a>
-          </li>
-          <li>
-            <a href='#contacto'>Contacto</a>
-          </li>
-        </ul>
-      </div>
-
-      <div className='toggle-bar' onClick={toggleMenu} ref={toggleBar}></div>
-    </nav>
+    <div className='Menu'>
+      {active ? (
+        <>
+          <nav className='SideMenu'>
+            <div className='links'>
+              <span>menu</span>
+              <ul>
+                <li onClick={() => goTo('#home-section')}>
+                  <p>inicio</p>
+                </li>
+                <li onClick={() => goTo('#about-section')}>
+                  <p>sobre mi</p>
+                </li>
+                <li onClick={() => goTo('#project-section')}>
+                  <p>proyectos</p>
+                </li>
+                <li onClick={() => goTo('#knowledge-section')}>
+                  <p>conocimientos</p>
+                </li>
+                <li onClick={() => goTo('#contact-section')}>
+                  <p>contacto</p>
+                </li>
+              </ul>
+            </div>
+            <div className='close-bar' onClick={toggleMenu}></div>
+          </nav>
+          <div className='back'></div>
+        </>
+      ) : (
+        <div className='open-bar' onClick={toggleMenu}></div>
+      )}
+    </div>
   )
 }
 
 export default SideMenu
-
-// const toggleBar = document.querySelector('.toggle-bar')
-
-// toggleBar.addEventListener('click', () => {
-
-// })

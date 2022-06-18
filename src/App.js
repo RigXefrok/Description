@@ -11,21 +11,23 @@ function App () {
   return (
     <div className='App'>
       <SideMenu />
-      <Section title='¡Hola!, soy un desarrollador web'>
-        <Home />
-      </Section>
-      <Section title='sobre mí'>
-        <AboutMe />
-      </Section>
-      <Section title='proyectos'>
-        <Projects />
-      </Section>
-      <Section title='conocimientos'>
-        <Knowledge />
-      </Section>
-      <Section title='contacto'>
-        <Contact />
-      </Section>
+      <div className='sections'>
+        <Section id='home-section' title='¡Hola!, soy un desarrollador web'>
+          <Home />
+        </Section>
+        <Section id='about-section' title='sobre mí'>
+          <AboutMe />
+        </Section>
+        <Section id='project-section' title='proyectos'>
+          <Projects />
+        </Section>
+        <Section id='knowledge-section' title='conocimientos'>
+          <Knowledge />
+        </Section>
+        <Section id='contact-section' title='contacto'>
+          <Contact />
+        </Section>
+      </div>
     </div>
   )
 }

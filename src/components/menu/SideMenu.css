@@ -1,9 +1,16 @@
+.Menu {
+  flex-basis: content;
+  z-index: 5;
+}
+
+.Menu .back {
+  width: 220px;
+  height: 100px;
+}
+
 .SideMenu {
   position: fixed;
-  z-index: 5;
-  width: 15%;
   height: 100vh;
-  min-width: 220px;
 
   top: 0;
   left: 0;
@@ -18,10 +25,10 @@
   transition: 0.3s left;
 }
 
-.SideMenu .menu {
+.SideMenu .links {
+  width: 230px;
   max-height: 100%;
   margin-top: 12%;
-  overflow: hidden;
 }
 
 .SideMenu span {
@@ -37,6 +44,9 @@
 }
 
 .SideMenu ul li {
+  display: flex;
+  align-items: center;
+
   background-color: #38653C;
   height: 35px;
 
@@ -49,19 +59,18 @@
   background-color: #497839;
 }
 
-.SideMenu ul li a {
-  display: flex;
-
-  align-items: center;
+.SideMenu ul li p {
   text-indent: 1.2em;
-
-  height: 100%;
   color: #D1D1D1;
   text-decoration: none;
 }
 
-/* *toggle-bar */
-.SideMenu .toggle-bar {
+.SideMenu ul li p::first-letter {
+  text-transform: uppercase;
+}
+
+/* *close-bar */
+.SideMenu .close-bar {
   position: absolute;
 
   width: 20px;
@@ -73,12 +82,12 @@
   cursor: pointer;
 }
 
-.SideMenu .toggle-bar:hover {
+.SideMenu .close-bar:hover {
   background-color: #171718;
   transition: 0.5s background-color;
 }
 
-.SideMenu .toggle-bar::before {
+.SideMenu .close-bar::before {
   content: '';
   position: absolute;
   top: 15px;
@@ -88,4 +97,44 @@
   border-top: 3px solid #D1D1D1;
   border-left: 3px solid #D1D1D1;
   transform: rotateZ(-45deg);
+}
+
+
+
+.Menu .open-bar {
+  position: fixed;
+  width: 25px;
+  height: 100vw;
+
+  top: 0;
+  left: 0;
+
+  background-color: #1f2124;
+  cursor: pointer;
+}
+
+.Menu .open-bar:hover {
+  background-color: #171718;
+  transition: 0.5s background-color;
+}
+
+.Menu .open-bar::before {
+  content: '';
+  position: absolute;
+  top: 15px;
+  right: 5px;
+  width: 15px;
+  height: 3px;
+  border-bottom: 2px solid #D1D1D1;
+  border-top: 2px solid #D1D1D1;
+}
+
+.Menu .open-bar::after {
+  content: '';
+  position: absolute;
+  top: 22px;
+  right: 5px;
+  width: 15px;
+  height: 3px;
+  border-bottom: 2px solid #D1D1D1;
 }
