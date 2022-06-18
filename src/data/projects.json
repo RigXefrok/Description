@@ -18,8 +18,16 @@
   {
     "name": "wordle",
     "type": "facultad",
-    "description": "Juego wordle realizado con POO.",
+    "description": "Juego wordle realizado con POO, con partidas diarias y registro y estadísticas de usuarios.",
     "technologies": ["Java", "json"],
+    "gitUrl": "",
+    "pageUrl": ""
+  },
+  {
+    "name": "pagina desaparecidos",
+    "type": "trabajo",
+    "description": "Consulta y vista de desaparecidos para el EAAF.",
+    "technologies": ["Python", "Django", "PostgresSQL", "elasticSearch"],
     "gitUrl": "",
     "pageUrl": ""
   }

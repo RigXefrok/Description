@@ -5,7 +5,7 @@ import certificatesData from '../../data/certificates.json'
 function Certificates () {
   return (
     <div className='Certificates'>
-      <h2> certificados </h2>
+      <h2> certificaciones </h2>
       {certificatesData.map(certificate => (
         <Certificate key={certificate.name} {...certificate} />
       ))}

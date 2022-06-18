@@ -1,0 +1,15 @@
+/* .AboutMe {} */
+
+/* .AboutMe .description {} */
+.AboutMe .description h2 {
+  padding-top: 1%;
+}
+
+.AboutMe .description h2::first-letter {
+  text-transform: uppercase;
+}
+
+.AboutMe .description>p {
+  padding-top: 2%;
+  padding-left: 3%;
+}
