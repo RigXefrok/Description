@@ -1,10 +1,20 @@
+import React, { useEffect } from 'react'
+import { useImperativeHandle } from 'react'
 import { useState } from 'react'
 import './Language.css'
 
-function Language ({ img, name, level, description }) {
+const Language = React.forwardRef(({ img, name, level, description }, ref) => {
   const [active, setActive] = useState(false)
   const handleActive = () => setActive(!active)
 
+  useEffect(() => {
+    if (name === 'Python') setActive(true)
+  }, [])
+
+  useImperativeHandle(ref, () => ({
+    activate: () => setActive(true),
+    deactivate: () => setActive(false)
+  }))
   const cardClasses = `card ${level}`
   return (
     <div className='Language' onClick={handleActive}>
@@ -22,6 +32,6 @@ function Language ({ img, name, level, description }) {
       ) : null}
     </div>
   )
-}
-/* <p>{description}</p> */
+})
+
 export default Language

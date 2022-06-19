@@ -2,7 +2,7 @@
 
 /* .AboutMe .description {} */
 .AboutMe .description h2 {
-  padding-top: 1%;
+  padding-top: 3%;
 }
 
 .AboutMe .description h2::first-letter {
@@ -10,6 +10,6 @@
 }
 
 .AboutMe .description>p {
-  padding-top: 2%;
+  padding-top: 1%;
   padding-left: 3%;
 }
