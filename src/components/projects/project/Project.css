@@ -4,7 +4,7 @@
   background-color: #151E21;
   flex-basis: 44%;
 
-  padding: 3% 2% 6%;
+  padding: 3% 2% 5%;
   margin: 5px;
   color: #d1d1d1;
   border-radius: 3px;
@@ -27,6 +27,7 @@
 }
 
 .Project .technologies {
+  padding-top: 3%;
   font-size: 1rem;
   display: flex;
 }
@@ -45,7 +46,7 @@
 .Project .buttons button {
   border: none;
   padding: 1% 2%;
-  margin: 2% 0%  2% 5%;
+  margin: 2% 0% 2% 5%;
   letter-spacing: 0.1em;
   color: #D1D1D1;
   font-size: 1rem;
