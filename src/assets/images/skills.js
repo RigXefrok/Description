@@ -60,13 +60,13 @@ const skills = [
   {
     name: 'PHP',
     img: phpSVG,
-    level: 'bajo',
+    level: 'básico',
     description: 'Utilice muy poco este lenguaje, no es de mis favoritos.'
   },
   {
     name: 'NodeJs',
     img: nodeSVG,
-    level: 'bajo',
+    level: 'básico',
     description: 'No desarrolle mucho en esta tecnología.'
   },
   {
@@ -78,14 +78,14 @@ const skills = [
   {
     name: 'C++',
     img: cppSVG,
-    level: 'bajo',
+    level: 'básico',
     description:
       'No cuento con mucha experiencia, solo lo utilice para trabajos de la facultad.'
   },
   {
     name: 'C#',
     img: CSharpSVG,
-    level: 'bajo',
+    level: 'básico',
     description:
       'No cuenta con mucha experiencia, lo utilice para algunos proyectos en Unity.'
   },
