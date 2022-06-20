@@ -9,7 +9,7 @@ const Language = React.forwardRef(({ img, name, level, description }, ref) => {
 
   useEffect(() => {
     if (name === 'Python') setActive(true)
-  }, [])
+  }, [name])
 
   useImperativeHandle(ref, () => ({
     activate: () => setActive(true),
