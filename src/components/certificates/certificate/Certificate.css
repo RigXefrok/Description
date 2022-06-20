@@ -6,20 +6,20 @@
   line-height: 0.9em;
 }
 
-.Certificate>p:nth-child(2) strong {
+.Certificate>p strong {
   color: #006266;
 }
 
-.Certificate>p:nth-child(2) strong::first-letter {
+.Certificate>p strong::first-letter {
   text-transform: uppercase;
 }
 
-.Certificate>p:nth-child(3) {
+.Certificate>p.credential {
   line-height: 1em;
   font-size: 0.8em;
 }
 
-.Certificate>p:nth-child(4) {
+.Certificate>p.duration {
   line-height: 1em;
   font-size: 0.8em;
 }

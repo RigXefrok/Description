@@ -30,17 +30,17 @@ function Contact () {
 
       <h2>Contáctame</h2>
       <form onSubmit={sendMail}>
-        <div>
+        <div className='name-container'>
           <label htmlFor='name'>Nombre</label>
           <br />
           <input type='text' name='name' />
         </div>
-        <div>
+        <div className='email-container'>
           <label htmlFor='email'>Correo</label>
           <br />
           <input type='text' name='email' />
         </div>
-        <div>
+        <div className='message-container'>
           <label htmlFor='message'>Mensaje</label>
           <br />
           <textarea rows='15' name='message' />

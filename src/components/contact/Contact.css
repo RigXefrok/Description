@@ -7,7 +7,7 @@
   font-size: 1.3rem;
 }
 
-.Contact>form div:nth-child(1) {
+.Contact>form div.name-container {
   flex-basis: 50%;
 }
 
@@ -15,7 +15,7 @@
   width: 90%;
 }
 
-.Contact>form div:nth-child(2) {
+.Contact>form div.email-container {
   flex-basis: 50%;
 }
 
@@ -23,7 +23,7 @@
   width: 90%;
 }
 
-.Contact>form div:nth-child(3) {
+.Contact>form div.message-container {
   flex-basis: 100%;
 }
 

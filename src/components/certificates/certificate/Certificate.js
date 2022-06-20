@@ -17,8 +17,8 @@ function Certificate ({
       <p>
         <strong>{name}</strong>/{institution}
       </p>
-      {credentialID ? <p>Credencial:{credentialID}</p> : null}
-      {duration ? <p>{duration}</p> : null}
+      {credentialID ? <p className='credential'>Credencial:{credentialID}</p> : null}
+      {duration ? <p className='duration'>{duration}</p> : null}
     </div>
   )
 }
