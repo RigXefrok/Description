@@ -1,10 +1,9 @@
 .Project {
   position: relative;
-
   background-color: #151E21;
   flex-basis: 44%;
-
-  padding: 3% 2% 5%;
+  min-width: 320px;
+  padding: 3% 2% 40px;
   margin: 5px;
   color: #d1d1d1;
   border-radius: 3px;
@@ -15,7 +14,6 @@
   user-select: none;
   line-height: 0.9em;
   border-bottom: 2px solid #006266;
-  /* #38653C */
 }
 
 .Project>h3::first-letter {
@@ -31,6 +29,7 @@
   padding-top: 3%;
   font-size: 1rem;
   display: flex;
+  flex-wrap: wrap;
 }
 
 .Project .technologies p {
@@ -46,7 +45,7 @@
 
 .Project .buttons button {
   padding: 1% 2%;
-  margin: 2% 0% 2% 4%;
+  margin: 2% 0% 10px 4%;
   font-size: 1rem;
   height: 30px;
 }

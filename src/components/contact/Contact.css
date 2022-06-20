@@ -52,3 +52,25 @@
 .Contact button {
   font-size: 1.2rem;
 }
+
+@media screen and (max-width: 600px) {
+  .Contact {
+    font-size: 1rem;
+  }
+
+  .Contact>form div.name-container {
+    flex-basis: 100%;
+  }
+
+  .Contact input[name='name'] {
+    width: 95%;
+  }
+
+  .Contact>form div.email-container {
+    flex-basis: 100%;
+  }
+
+  .Contact input[name='email'] {
+    width: 95%;
+  }
+}
