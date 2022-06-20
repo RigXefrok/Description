@@ -25,25 +25,26 @@ const skills = [
     name: 'JavaScript',
     img: javascriptSVG,
     level: 'alto',
-    description: 'Me encanta desarrollar en javascript.'
+    description: 'Me encanta desarrollar en JavaScript.'
   },
   {
     name: 'Angular',
     img: angularSVG,
     level: 'medio',
-    description: 'Cuento con buena experiencia y gustaría especializarme mas.'
+    description: 'Cuento con buena experiencia y gustaría especializarme más.'
   },
   {
     name: 'HTML',
     img: htmlSVG,
     level: 'alto',
-    description: 'Poseo un maquetado decente en mis desarrollos'
+    description: 'Poseo un gran maquetado en mis desarrollos'
   },
   {
     name: 'CSS',
     img: cssSVG,
     level: 'alto',
-    description: 'Mi sentido del estilo puede mejorar pero esta correcto.'
+    description:
+      'Poseo un buen uso de los estilos, enfocado al responsive design.'
   },
   {
     name: 'Django',
@@ -61,13 +62,13 @@ const skills = [
     name: 'PHP',
     img: phpSVG,
     level: 'básico',
-    description: 'Utilice muy poco este lenguaje, no es de mis favoritos.'
+    description: 'Utilicé muy poco este lenguaje, no es de mis favoritos.'
   },
   {
     name: 'NodeJs',
     img: nodeSVG,
     level: 'básico',
-    description: 'No desarrolle mucho en esta tecnología.'
+    description: 'No desarrollé mucho en esta tecnología.'
   },
   {
     name: 'ReactJs',
@@ -80,14 +81,13 @@ const skills = [
     img: cppSVG,
     level: 'básico',
     description:
-      'No cuento con mucha experiencia, solo lo utilice en la facultad.'
+      'No cuento con mucha experiencia, solo lo utilicé en la universidad.'
   },
   {
     name: 'C#',
     img: CSharpSVG,
     level: 'básico',
-    description:
-      'No cuenta con mucha experiencia, solo en proyectos de Unity.'
+    description: 'No cuenta con mucha experiencia, solo en proyectos de Unity.'
   },
   {
     name: 'Git',
@@ -105,7 +105,7 @@ const skills = [
     name: 'Mysql',
     img: mysqlSVG,
     level: 'medio',
-    description: 'No me especializo pero se usarlo.'
+    description: 'No me especializo pero sé usarlo.'
   }
 ]
 

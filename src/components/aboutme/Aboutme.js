@@ -12,28 +12,28 @@ function AboutMe () {
         <h2>estudios</h2>
         <p>
           Actualmente me encuentro cursando el tercer año de la carrera de
-          ingeniería en informática en la Universidad Nacional De Avellaneda
+          Ingeniería en Informática en la Universidad Nacional De Avellaneda
           [UNDAV].
         </p>
         <p>
-          Complete mi educación secundaria en la EEST n°5 John F.Kennedy, en
-          lanús, graduándome como Técnico en programación en 2019.
+          Complete mi educación secundaria en la EEST N°5 John F.Kennedy, en
+          Lanús, graduándome como Técnico en Programación en 2019.
         </p>
         <h2>carrera</h2>
         <p>
           Comencé a estudiar programación en la secundaria, viendo lenguajes
-          como visual basic, java, gobstones, entre otros.
+          como Visual Basic, Java, JavaScript, entre otros.
         </p>
         <p>
           Durante esa etapa pude participar en diferentes competencias
           (olimpiadas de programación y ferias de proyectos), para las cuales
-          desarrolle diversos proyectos con mis compañeros, destacando la
+          desarrollé diversos proyectos con mis compañeros, destacando la
           biblioteca virtual.
         </p>
         <p>
-          Al mismo tiempo que completaba mis estudios secundarios realice
-          diversos cursos y me capacite por mi cuenta en diversas tecnologías,
-          como angular, mongoDb, entre otras.
+          Al mismo tiempo que completaba mis estudios secundarios realicé
+          diversos cursos y me capacité por mi cuenta en una gran variedad de
+          tecnologías, como Angular, MongoDb, entre otras.
         </p>
         <p>
           En la universidad, al ya contar con experiencia en programación, me
@@ -42,9 +42,9 @@ function AboutMe () {
         </p>
         <h2>trabajos</h2>
         <p>
-          Realice trabajos freelance para el Equipo Argentino de
-          Antropología Forense [EAAF], diseñando un frontend para una aplicación
-          existente en Django.
+          Realicé trabajos freelance para el Equipo Argentino de Antropología
+          Forense [EAAF], diseñando un frontend para una aplicación existente en
+          Django.
         </p>
       </div>
     </div>

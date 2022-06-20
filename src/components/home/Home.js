@@ -8,7 +8,7 @@ function Home () {
   return (
     <div className='Home'>
       <div className='description'>
-        <h2>me llamo Sebastián de la Fuente</h2>
+        <h2>Me llamo Sebastián de la Fuente</h2>
         <p>
           Me gusta desarrollar tanto en frontend como en backend y mis lenguajes
           favoritos son Python y JavaScript.
