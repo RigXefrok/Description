@@ -1,0 +1,22 @@
+.Button {
+  border: none;
+  height: 100% !important;
+  padding: 1% 2%;
+  letter-spacing: 0.2em;
+  border-radius: 2px;
+  color: #D1D1D1;
+  font-size: 1rem;
+  width: fit-content;
+  height: 30px;
+  background: #006266;
+
+}
+
+.Button:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  background: #1289A7;
+  box-shadow: 2px 0px 15px 0px #1289a7eb;
+  -webkit-box-shadow: 2px 0px 15px 0px #1289A7eb;
+  -moz-box-shadow: 2px 0px 15px 0px #1289A7eb;
+}

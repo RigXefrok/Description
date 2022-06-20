@@ -46,19 +46,9 @@
 .Contact input[name='name']:focus,
 .Contact input[name='email']:focus,
 .Contact textarea:focus {
-  outline-color: #38653C;
+  outline-color: #006266;
 }
 
 .Contact button {
-  border: none;
-  padding: 1% 2%;
-  letter-spacing: 0.1em;
-  color: #D1D1D1;
-  font-size: 1.5rem;
-  background-color: #38653C;
-}
-
-.Contact button:hover {
-  cursor: pointer;
-  background-color: #497839;
+  font-size: 1.2rem;
 }

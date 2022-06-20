@@ -80,14 +80,14 @@ const skills = [
     img: cppSVG,
     level: 'básico',
     description:
-      'No cuento con mucha experiencia, solo lo utilice para trabajos de la facultad.'
+      'No cuento con mucha experiencia, solo lo utilice en la facultad.'
   },
   {
     name: 'C#',
     img: CSharpSVG,
     level: 'básico',
     description:
-      'No cuenta con mucha experiencia, lo utilice para algunos proyectos en Unity.'
+      'No cuenta con mucha experiencia, solo en proyectos de Unity.'
   },
   {
     name: 'Git',

@@ -14,7 +14,8 @@
   position: relative;
   user-select: none;
   line-height: 0.9em;
-  border-bottom: 2px solid #38653C;
+  border-bottom: 2px solid #006266;
+  /* #38653C */
 }
 
 .Project>h3::first-letter {
@@ -44,16 +45,8 @@
 }
 
 .Project .buttons button {
-  border: none;
   padding: 1% 2%;
-  margin: 2% 0% 2% 5%;
-  letter-spacing: 0.1em;
-  color: #D1D1D1;
+  margin: 2% 0% 2% 4%;
   font-size: 1rem;
-  background-color: #38653C;
-}
-
-.Project .buttons button:hover {
-  cursor: pointer;
-  background-color: #497839;
+  height: 30px;
 }

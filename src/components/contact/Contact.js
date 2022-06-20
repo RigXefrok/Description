@@ -1,6 +1,6 @@
 import './Contact.css'
 import emailjs from 'emailjs-com'
-
+import Button from '../utils/button/Button'
 function Contact () {
   const sendMail = event => {
     event.preventDefault()
@@ -45,7 +45,7 @@ function Contact () {
           <br />
           <textarea rows='15' name='message' />
         </div>
-        <button>Enviar</button>
+        <Button value='enviar' />
       </form>
     </div>
   )

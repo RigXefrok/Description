@@ -2,6 +2,7 @@ import './Languages.css'
 import Skill from './language/Language.js'
 import skills from '../../assets/images/skills'
 import React, { useRef } from 'react'
+import Button from '../utils/button/Button'
 
 function Languages () {
   const skillsRef = useRef(skills.map(React.createRef))
@@ -22,8 +23,8 @@ function Languages () {
       <div className='head'>
         <h2>Lenguajes</h2>
         <div>
-          <button onClick={expandAll}>expandir</button>
-          <button onClick={closeAll}>contraer</button>
+          <Button value='expandir' action={expandAll}></Button>
+          <Button value='contraer' action={closeAll}></Button>
         </div>
       </div>
 

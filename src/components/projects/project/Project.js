@@ -1,5 +1,5 @@
 import './Project.css'
-
+import Button from '../../utils/button/Button'
 function Project ({ name, type, description, technologies }) {
   return (
     <div className='Project'>
@@ -13,8 +13,8 @@ function Project ({ name, type, description, technologies }) {
         ))}
       </div>
       <div className='buttons'>
-        <button>ver</button>
-        <button>code</button>
+        <Button value='ver' />
+        <Button value='code' />
       </div>
     </div>
   )

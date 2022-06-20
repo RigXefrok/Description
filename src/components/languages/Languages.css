@@ -6,6 +6,7 @@
 
 .Languages>div {
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
 }
 
@@ -21,19 +22,7 @@
 }
 
 .Languages .head button {
-  border: none;
-  user-select: none;
   padding: 0 5px;
   margin-left: 5px;
-  letter-spacing: 0.2em;
-  border-radius: 2px;
-  color: #D1D1D1;
   font-size: 0.8rem;
-  background-color: #38653C;
-}
-
-.Languages .head button:hover {
-  cursor: pointer;
-  background-color: #497839;
-  transform: scale(1.1);
 }
