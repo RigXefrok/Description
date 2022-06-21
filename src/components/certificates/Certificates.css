@@ -1,3 +1,7 @@
 .Certificates>h2 {
   padding: 3% 0 1%;
 }
+
+.Certificates>h2::first-letter {
+  text-transform: uppercase;
+}

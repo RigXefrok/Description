@@ -140,7 +140,7 @@
   border-bottom: 2px solid #D1D1D1;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 620px) {
   .Menu {
     user-select: none;
   }
@@ -162,7 +162,7 @@
 
   .SideMenu .links {
     width: 100%;
-    margin-top: 5%;
+    margin: 0;
   }
 
   .SideMenu ul {
@@ -171,11 +171,15 @@
   }
 
   .SideMenu ul li {
-    width: 65%;
-    font-size: 1.6rem;
-    padding: 10px 0;
+    width: 60%;
+    font-size: 1rem;
+    padding: 0;
     margin: auto;
     margin-bottom: 10px;
+  }
+
+  .SideMenu ul li p {
+    margin: auto;
   }
 
   .SideMenu .close-bar {

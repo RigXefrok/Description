@@ -5,7 +5,9 @@ import './Language.css'
 
 const Language = React.forwardRef(({ img, name, level, description }, ref) => {
   const [active, setActive] = useState(false)
-  const handleActive = () => setActive(!active)
+  const handleActive = event => {
+    setActive(!active)
+  }
 
   useEffect(() => {
     if (name === 'Python') setActive(true)

@@ -33,11 +33,11 @@ function Contact () {
     <div className='Contact'>
       <div className='information'>
         <p>
-          <strong>correo</strong>/sebastian.delafuente2000@gmail.com
+          <strong>correo</strong>/ sebastian.delafuente2000@gmail.com
         </p>
 
         <p>
-          <strong>tel</strong>/+54 9 11 22854549
+          <strong>tel</strong>/ +54 9 11 22854549
         </p>
       </div>
 

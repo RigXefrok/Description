@@ -8,6 +8,7 @@ function SideMenu () {
 
   const goTo = id => {
     document.querySelector(id).scrollIntoView({ behavior: 'smooth' })
+    toggleMenu()
   }
 
   return (

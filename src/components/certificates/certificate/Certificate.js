@@ -15,9 +15,11 @@ function Certificate ({
         {startDate} /{type} - {expirationDate}
       </h5>
       <p>
-        <strong>{name}</strong>/{institution}
+        <strong>{name}</strong>/ {institution}
       </p>
-      {credentialID ? <p className='credential'>Credencial:{credentialID}</p> : null}
+      {credentialID ? (
+        <p className='credential'>Credencial:{credentialID}</p>
+      ) : null}
       {duration ? <p className='duration'>{duration}</p> : null}
     </div>
   )

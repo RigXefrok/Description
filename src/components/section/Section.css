@@ -21,11 +21,7 @@
   text-transform: uppercase;
 }
 
-.Section>div {
-  padding-left: 10px;
-}
-
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 620px) {
   .Section {
     margin: 0;
     padding: 20px 0;
@@ -33,7 +29,7 @@
   }
 
   .Section>div {
-    padding-right: 10px;
+    padding: 10px;
   }
 
   .Section h1 {
