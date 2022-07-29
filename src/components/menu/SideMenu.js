@@ -6,9 +6,10 @@ function SideMenu () {
 
   const toggleMenu = () => setActive(!active)
 
+  const isMobile = window.innerWidth < 650
   const goTo = id => {
     document.querySelector(id).scrollIntoView({ behavior: 'smooth' })
-    toggleMenu()
+    if (isMobile) toggleMenu()
   }
 
   return (

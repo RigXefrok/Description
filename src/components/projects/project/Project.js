@@ -1,6 +1,6 @@
 import './Project.css'
 import Button from '../../utils/button/Button'
-function Project ({ name, type, description, technologies }) {
+function Project ({ name, type, description, technologies, gitUrl, pageUrl }) {
   return (
     <div className='Project'>
       <h3>
@@ -13,8 +13,8 @@ function Project ({ name, type, description, technologies }) {
         ))}
       </div>
       <div className='buttons'>
-        <Button value='ver' />
-        <Button value='code' />
+        {pageUrl ? <Button value='ver' /> : null}
+        {gitUrl ? <Button value='code' /> : null}
       </div>
     </div>
   )
